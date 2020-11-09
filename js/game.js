@@ -899,7 +899,7 @@ $.updatePowerupTimers = function() {
 	if( $.powerupTimers[ 2 ] > 0 ){
 		$.hero.weapon.fireRate = 2;
 		$.hero.weapon.bullet.speed = 14;
-		$.powerupTimers[ 2 ] -= $.dt;
+// 		$.powerupTimers[ 2 ] -= $.dt;
 	} else {
 		$.hero.weapon.fireRate = 5;
 		$.hero.weapon.bullet.speed = 10;
@@ -908,7 +908,7 @@ $.updatePowerupTimers = function() {
 	// TRIPLE SHOT
 	if( $.powerupTimers[ 3 ] > 0 ){
 		$.hero.weapon.count = 3;
-		$.powerupTimers[ 3 ] -= $.dt;
+// 		$.powerupTimers[ 3 ] -= $.dt;
 	} else {
 		$.hero.weapon.count = 1;
 	}
@@ -916,7 +916,7 @@ $.updatePowerupTimers = function() {
 	// PIERCE SHOT
 	if( $.powerupTimers[ 4 ] > 0 ){
 		$.hero.weapon.bullet.piercing = 1;
-		$.powerupTimers[ 4 ] -= $.dt;
+// 		$.powerupTimers[ 4 ] -= $.dt;
 	} else {
 		$.hero.weapon.bullet.piercing = 0;
 	}
